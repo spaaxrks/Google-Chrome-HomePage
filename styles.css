@@ -1,0 +1,204 @@
+body{
+    margin:0;
+    height: 100vh;
+    background-color:#333333;    ;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.header{
+    display: flex;
+    padding: 8px;;
+    height: 40px;
+}
+.empty{
+    width:70%;
+
+}
+.headerlinks{
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.headerlinks a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 13px;
+}
+
+.headerlinks a:hover{
+    text-decoration: underline;
+}
+
+.svgbox a img{
+    margin-right: -5px;
+    margin-top: 5px;
+} 
+.svgbox a img:hover{
+    background-color:rgb(100, 98, 98);
+    border-radius: 50%;
+    margin: 0px;
+    transform: none;
+
+}
+/* .contentbox{
+    height: 100vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    
+}*/
+#box{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    /* margin-bottom:350px; */
+}
+
+.googlebox{
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 38px;
+}
+.googlebox svg{
+    
+    height: 92px;
+    width: 272px;
+
+}
+
+.inputbox{
+    /* width:45%;  */
+    width: 746px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 23px;
+    padding: 5px;
+    
+}
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size:16px;
+    
+}
+.icon{
+    width: 25px;
+    margin: 5px;
+}
+.icon1{
+    margin-right: 15px;
+    margin-left: 15px;
+    width: 15px;
+}
+
+.shortcuts{
+    width:746px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
+}
+
+.shortcutboxes{
+    width: 112px;
+    height: 112px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 81.25%;
+}
+.shortcutboxes:hover{
+    background-color:rgb(100, 98, 98);
+    border-radius: 5px;
+}
+.shortcutboxes a{
+    width: 24px;
+    height: 24px;
+}
+
+.shortcutboxes a img{
+    height: 24px;
+    width: 24px;
+}
+.logobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    background-color:rgb(40, 40, 40);
+    border-radius: 50%;
+}
+
+.customizeoption a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(40, 40, 40) ;
+    border-radius: 23px;
+    font-size: 13px;
+    width: 171.27px;
+    height: 32px;
+    color: rgb(133, 138, 142);
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    text-decoration: none;
+}
+.customizeoption a:hover{
+    background-color:rgb(100, 98, 98) ;
+
+}
+
+.customizeoption a img{
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+}
+
+
+
+@media (max-width: 430px){
+    .googlebox{
+        margin-top: 100px;
+    } 
+    .inputbox{
+        width: 584px;
+    }
+    .customizeoption{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 430px) and (max-width: 1204px){
+    .googlebox{
+        margin-top: 100px;
+    }
+    .inputbox{
+        width: 70%;
+    }
+    
+}
